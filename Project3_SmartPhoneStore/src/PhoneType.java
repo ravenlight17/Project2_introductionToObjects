@@ -32,7 +32,7 @@ public class PhoneType {
             // We use currentSmartPhone to see if it matches the type we are looking for
             if (currentSmartPhone.getType().equalsIgnoreCase(type)) {
                 // if the types are equal the program prints out the smartphone
-                System.out.println(currentSmartPhone.print());
+                System.out.println(currentSmartPhone.toString());
             }
 
             //if the smartphone doesn't match the type then the program is going to move on to
