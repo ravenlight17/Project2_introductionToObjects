@@ -27,15 +27,15 @@ public class SmartPhone {
     //Method used to display all the values in a smartphone object created
     @Override
     public String toString() {
-      return "--------------------" +
+      return "-->>" +
        "Manufacturer: " + manufacturer +
-        "Model: " + model +
-        "Operating System: " + os +
-        "Storage: " + memory +
-        "Color: " + color +
-        "Number of Camera Lenses: " + cameraLenses +
-        "Price: " + price +
-        "Screen Size: " + screenSize;
+        , "Model: " + model +
+        ", Operating System: " + os +
+        ", Storage: " + memory +
+        ", Color: " + color +
+        ", Number of Camera Lenses: " + cameraLenses +
+        ", Price: " + price +
+        ", Screen Size: " + screenSize;
 
 
     }
@@ -45,19 +45,7 @@ public class SmartPhone {
         return this.os;
     }
 
-//     This method will display all the values in any Smartphone object that we create.
-    public String print() {
-        return
-                ("--------------------\n " +
-                        "Manufacturer: " + this.manufacturer +
-                        "\n Model: " + this.model +
-                        "\n Operating System: " + this.os +
-                        "\n Storage: " + this.memory +
-                        "\n Color: " + this.color +
-                        "\n Number of Camera Lenses: " + this.cameraLenses +
-                        "\n Price: " + this.price +
-                        "\n Screen Size: " + this.screenSize);
-    }
+
 
 
 
