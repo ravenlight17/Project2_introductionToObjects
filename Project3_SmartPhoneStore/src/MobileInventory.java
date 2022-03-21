@@ -34,19 +34,7 @@ public class MobileInventory {
         mobileInventory.addSmartPhone(iPhone8);
         mobileInventory.addSmartPhone(iPhone_se);
 
-        System.out.println("Hi, welcome to Sesame's Mobile, " + "here is a list of the phones in stock: \n");
-
-        iPhone12.toString();
-        note20.toString();
-        iPhone13_pro_max.toString();
-        googlePixel.toString();
-        OnePlus.toString();
-        OneP.toString();
-        iPhone8.toString();
-        iPhone_se.toString();
-
-
-        System.out.println("\n \nWould you like to purchase a phone? (Enter Yes or No) ");
+        System.out.println("Welcome to Sesame's Mobile! Would you like to purchase a phone? (Enter Yes or No) ");
 
 
         Scanner myInput = new java.util.Scanner(System.in);
